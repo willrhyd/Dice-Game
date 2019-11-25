@@ -1,0 +1,87 @@
+body {
+
+  background-color: #3c4245;
+
+
+
+}
+
+h1 {
+  color: #4dd599;
+  font-family: "Pacifico", cursive;
+  font-size: 8vw;
+  margin: 0 auto 20px auto;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+
+
+h2 {
+
+  color: #4dd599;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  margin: 10px auto;
+}
+
+
+.myButton {
+	background:linear-gradient(to bottom, #ffafb0 5%, #fc7978 100%);
+	background-color:#fc7978;
+	border-radius:30px;
+	border:1px solid #fc7978;
+	display:inline-block;
+	cursor:pointer;
+	color:#4dd599;
+	font-family:"Indie Flower", cursive;
+	font-size:2rem;
+  font-weight: bolder;
+	padding:10px 24px;
+	text-decoration: none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #ffafb0 100%);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.flex-item {
+  flex-basis: 175px;
+  justify-content: center;
+  margin: 0 5%;
+  min-width: 25%;
+  text-align: center;
+}
+
+
+.flex-item img{
+  max-width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.header{
+
+  display: block;
+
+}
+.myButton{
+  margin: 2.5%;
+}
+
+.titleFlag{
+  margin-right: 3%;
+  max-width: 12%;
+}
